@@ -1,3 +1,5 @@
+package equations;
+
 public class SquareEquation {
     private double A;
     private double B;
@@ -9,6 +11,20 @@ public class SquareEquation {
         this.B = B;
         this.C = C;
     }
+
+
+    public SquareEquation(double A, double B) {
+        this.A = A;
+        this.B = B;
+        this.C = 0;
+    }
+
+    public SquareEquation(double A) {
+        this.A = A;
+        this.B = 0;
+        this.C = 0;
+    }
+
 
     public void solve() {
         double discriminant = Math.pow(this.B, 2) + 4 * this.A * this.C;
@@ -36,3 +52,4 @@ public class SquareEquation {
     }
 
 }
+

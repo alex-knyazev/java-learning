@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Lab3 {
+public class ReversedWords {
     public static void main(String[]args) {
         String[] words = {
                 "привет", "тевирп", "ненужно", "пропустить", "нужно", "онжун",
